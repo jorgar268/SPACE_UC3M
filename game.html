@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>&#9654;</title>
+</head>
+
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play</title>
+    <link rel="stylesheet" href="styleJuego.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <div class="logo" style="color: aliceblue"></div>
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="game.html">play</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--  -->
+    <div class="fullscreen">
+      <button class="full" onclick="openFullscreen();">¡PRUEBA P.COMPLETA!</button>
+    </div>
+    <canvas id="canvas"></canvas>
+
+    <div class="estructuraCajaPuntuacion" id="modelo">
+      <div class="cajaPuntuacion">
+        <h1 id="puntFinal">0</h1>
+        <!-- h1 grande y negrita-->
+        <p>Puntos</p>
+        <!-- p grisaceo -->
+        <div><button id="startGame">Empezar Juego</button></div>
+      </div>
+    </div>
+
+    <div class="ñapa"></div>
+    <script src="./js/nave.js"></script>
+    <script src="./js/particles.js"></script>
+    <script src="./js/obstacle.js"></script>
+    <script src="./js/projectile.js"></script>
+    <script src="./js/main.js"></script>
+
+    <!-- footer + js -->
+     <!-- FOOTER -->
+     <footer class="footer">
+      <!-- social icons -->
+      <ul class="socialIcons">
+        <li>
+          <a
+            href="https://es-es.facebook.com/picleganesuc3m"
+            class="socialIcons__socialIcon"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://es.linkedin.com/school/universidad-carlos-iii-de-madrid/"
+            class="socialIcons__socialIcon"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.instagram.com/universidadcarlosiiidemadrid/?hl=es"
+            class="socialIcons__socialIcon"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:100346243@alumnos.uc3m" class="socialIcons__socialIcon">
+            <i class="far fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
+
+      <p>&copy;Space UC3M . all rights reserved</p>
+    </footer>
+    <!-- javascript -->
+    <script src="app.js"></script>
+    <script src="alert.js"></script>
+
+  </body>
+
+  </html>
+</body>
+
+</html>

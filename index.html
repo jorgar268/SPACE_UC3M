@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JuegoUC3m</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;900&display=swap" rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <div class="logo" style="color: aliceblue"></div>
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="game.html">play</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="contenido">
+
+      <button class="btn-abrir-popup" id="btn-abrir-popup">INSTRUCCIONES</button>
+      <button class="btn-abrir-popup1" id="btn-abrir-popup1">DESCRIPCIÓN</button>
+      <div class="nave">
+     <img class="imgnave" src="./assets/img/nave.png" alt="nave">
+   </div>
+
+         <div class ="overlay " id="overlay">
+           <div class = "popup" id="popup">
+             <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+             <h3> INSTRUCCIONES </h3>
+             <p>
+               Adentrate en el juego e intenta conseguir los mayores puntos posibles.
+                  Con el ESPACIO mueve la nave en la dirección que quieras, con cuidado de no chocarte
+                con los obstáculos. Mientras dispara a los meteoritos con el ratón consiguiendo puntos extra si
+                 estos están destruidos.<br> </p>
+               <img class="bullet" src="./assets/img/bullet.png" alt="bullet" width="100" height="100">
+               <img class="meteorito" src="./assets/img/meteor.png" alt="meteorito" width="100" height="100">
+                <br>
+              <p>No olvides conectar tu ratón  <i class="fas fa-mouse"> </i> para una mejor experienci de juego</p>
+             <a  href="game.html"> <h5> ¡¡ENTRA A PROBAR SUERTE!! </h5></a>
+
+           </div>
+           </div>
+           <div class ="overlay1" id="overlay1">
+            <div class = "popup1" id="popup1">
+              <a href="#" id="btn-cerrar-popup1" class="btn-cerrar-popup1"><i class="fas fa-times"></i></a>
+              <h6> DESCRIPCIÓN </h6>
+              <p1>
+                Si te dan una nave equipada con la más alta tecnología de destrucción y una gran cantidad de meteoritos
+                 se interponen en tus planes lo único que puedes hacer es disparar, disparar y disparar.<br> </p1>
+                </div>
+                </div>
+     </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <!-- social icons -->
+      <ul class="socialIcons">
+        <li>
+          <a
+            href="https://es-es.facebook.com/picleganesuc3m"
+            class="socialIcons__socialIcon"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://es.linkedin.com/school/universidad-carlos-iii-de-madrid/"
+            class="socialIcons__socialIcon"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.instagram.com/universidadcarlosiiidemadrid/?hl=es"
+            class="socialIcons__socialIcon"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:100346243@alumnos.uc3m" class="socialIcons__socialIcon">
+            <i class="far fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
+
+      <p>&copy;Space UC3M . all rights reserved</p>
+    </footer>
+    <!-- javascript -->
+    <script src="app.js"></script>
+    <script src="popup.js"></script>
+    <script src="popup1.js"></script>
+
+  </body>
+</html>

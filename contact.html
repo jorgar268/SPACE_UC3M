@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JuegoUC3m</title>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;900&display=swap" rel="stylesheet">
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-center">
+      <!-- nav header -->
+      <div class="nav-header">
+        <div class="logo" style="color: aliceblue"></div>
+        <button class="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <!-- links -->
+      <ul class="links">
+        <li>
+          <a href="index.html">home</a>
+        </li>
+        <li>
+          <a href="game.html">play</a>
+        </li>
+        <li>
+          <a href="about.html">about</a>
+        </li>
+        <li>
+          <a href="contact.html">contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--CONTACT -->
+
+  <div class="content">
+    <div class="paquete">
+      <h1>Formulario de contacto</h1>
+
+      <div class="form">
+
+        <form action="mailto:spaceuc3m@gmail.com" method="post" id="formulario" enctype="text/plain"
+          onsubmit="return validar()">
+
+          <div class="fila">
+            <input class="effect-1" type="text" name="name" id="name" placeholder="Nombre">
+            <span class="focus-border"></span>
+          </div>
+          <div class="fila2">
+            <input class="effect-1" type="text" name="email" id="email" placeholder="E-mail">
+            <span class="focus-border"></span>
+          </div>
+          <div class="fila3">
+            <input class="effect-1" type="text" name="subject" id="subject" placeholder="Asunto">
+            <span class="focus-border"></span>
+          </div>
+          <div class="fila4">
+            <textarea class="effect-2" name="message" id="message" placeholder="Mensaje"></textarea>
+            <span class="focus-border">
+              <i></i>
+            </span>
+          </div>
+          <input type="submit" value="Enviar">
+
+        </form>
+
+
+      </div>
+    </div>
+
+    <div class="info">
+
+      <li><a href="" class="abrir-datos" id="abrir-datos">Datos de contacto</a>
+        <ul>
+          <li><i class="fa fa-phone" aria-hidden="true"></i>916249500</li>
+          <li><i class="fas fa-map-marker-alt"></i> Universidad Carlos III</li>
+        </ul>
+      </li>
+    </div>
+  </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <!-- social icons -->
+      <ul class="socialIcons">
+        <li>
+          <a
+            href="https://es-es.facebook.com/picleganesuc3m"
+            class="socialIcons__socialIcon"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://es.linkedin.com/school/universidad-carlos-iii-de-madrid/"
+            class="socialIcons__socialIcon"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.instagram.com/universidadcarlosiiidemadrid/?hl=es"
+            class="socialIcons__socialIcon"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:100346243@alumnos.uc3m" class="socialIcons__socialIcon">
+            <i class="far fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
+
+      <p>&copy;Space UC3M . all rights reserved</p>
+    </footer>
+  <!-- javascript -->
+  <script src="app.js"></script>
+  <script src="alert.js"></script>
+
+
+</body>
+
+</html>
